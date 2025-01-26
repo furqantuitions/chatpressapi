@@ -11,7 +11,7 @@ app.post('/api/botpress', async (req, res) => {
   const { userMessage } = req.body;
 
   // Call Botpress API here
-  const botpressApiUrl = 'https://your-botpress-server.com/api/v1/bots/your-bot-id/converse';
+  const botpressApiUrl = 'https://webhook.botpress.cloud/c90a8f0a-b0df-4b23-8a7b-f29664d6cd0c';
   const headers = {
     'Authorization': 'Bearer your-botpress-api-key',
     'Content-Type': 'application/json',
